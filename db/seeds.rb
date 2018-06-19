@@ -28,8 +28,8 @@ bbedroom4 = Bedroom.create(apartment: apartment3, price: 1800, lease_start: "201
 bbedroom5 = Bedroom.create(apartment: apartment3, price: 3000, lease_start: "2018-06-01", term: 12, name: "2e")
 
 apartment4 = Apartment.create(name: "4", floor: 4);
-cbedroom = Bedroom.create(apartment: apartment4, price: 2000, lease_start: "2017-06-01", term: 12, name: "2a")
-cbedroom2 = Bedroom.create(apartment: apartment4, price: 3000, lease_start: "2018-06-01", term: 6, name: "2b")
+cbedroom = Bedroom.create(apartment: apartment4, price: 2700, lease_start: "2017-06-01", term: 12, name: "2a")
+cbedroom2 = Bedroom.create(apartment: apartment4, price: 2000, lease_start: "2017-06-01", term: 6, name: "2b")
 cbedroom3 = Bedroom.create(apartment: apartment4, price: 2200, lease_start: "2018-01-01", term: 6, name: "2c")
 cbedroom4 = Bedroom.create(apartment: apartment4, price: 1400, lease_start: "2018-09-01", term: 12, name: "2d")
 cbedroom5 = Bedroom.create(apartment: apartment4, price: 3000, lease_start: "2018-06-01", term: 12, name: "2e")
