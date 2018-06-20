@@ -21,15 +21,15 @@ abedroom4 = Bedroom.create(apartment: apartment2, price: 2500, lease_start: "201
 abedroom5 = Bedroom.create(apartment: apartment2, price: 2800, lease_start: "2018-06-01", term: 12, name: "2e")
 
 apartment3 = Apartment.create(name: "3", floor: 3);
-bbedroom = Bedroom.create(apartment: apartment3, price: 2000, lease_start: "2017-06-01", term: 12, name: "2a")
-bbedroom2 = Bedroom.create(apartment: apartment3, price: 2200, lease_start: "2018-06-01", term: 6, name: "2b")
-bbedroom3 = Bedroom.create(apartment: apartment3, price: 2500, lease_start: "2018-01-01", term: 6, name: "2c")
-bbedroom4 = Bedroom.create(apartment: apartment3, price: 1800, lease_start: "2018-09-01", term: 12, name: "2d")
-bbedroom5 = Bedroom.create(apartment: apartment3, price: 3000, lease_start: "2018-06-01", term: 12, name: "2e")
+bbedroom = Bedroom.create(apartment: apartment3, price: 2000, lease_start: "2017-06-01", term: 12, name: "3a")
+bbedroom2 = Bedroom.create(apartment: apartment3, price: 2200, lease_start: "2018-06-01", term: 6, name: "3b")
+bbedroom3 = Bedroom.create(apartment: apartment3, price: 2500, lease_start: "2018-01-01", term: 6, name: "3c")
+bbedroom4 = Bedroom.create(apartment: apartment3, price: 1800, lease_start: "2018-09-01", term: 12, name: "3d")
+bbedroom5 = Bedroom.create(apartment: apartment3, price: 3000, lease_start: "2018-06-01", term: 12, name: "3e")
 
 apartment4 = Apartment.create(name: "4", floor: 4);
-cbedroom = Bedroom.create(apartment: apartment4, price: 2700, lease_start: "2017-06-01", term: 12, name: "2a")
-cbedroom2 = Bedroom.create(apartment: apartment4, price: 2000, lease_start: "2017-06-01", term: 6, name: "2b")
-cbedroom3 = Bedroom.create(apartment: apartment4, price: 2200, lease_start: "2018-01-01", term: 6, name: "2c")
-cbedroom4 = Bedroom.create(apartment: apartment4, price: 1400, lease_start: "2018-09-01", term: 12, name: "2d")
-cbedroom5 = Bedroom.create(apartment: apartment4, price: 3000, lease_start: "2018-06-01", term: 12, name: "2e")
+cbedroom = Bedroom.create(apartment: apartment4, price: 2700, lease_start: "2017-06-01", term: 12, name: "4a")
+cbedroom2 = Bedroom.create(apartment: apartment4, price: 2000, lease_start: "2017-06-01", term: 6, name: "4b")
+cbedroom3 = Bedroom.create(apartment: apartment4, price: 2200, lease_start: "2018-01-01", term: 6, name: "4c")
+cbedroom4 = Bedroom.create(apartment: apartment4, price: 1400, lease_start: "2018-09-01", term: 12, name: "4d")
+cbedroom5 = Bedroom.create(apartment: apartment4, price: 3000, lease_start: "2018-06-01", term: 12, name: "4e")
