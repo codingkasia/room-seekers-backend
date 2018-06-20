@@ -6,6 +6,7 @@ class CreateBedrooms < ActiveRecord::Migration[5.2]
       t.date :lease_start
       t.integer :term
       t.string :name
+      t.string :room_type
 
       t.timestamps
     end

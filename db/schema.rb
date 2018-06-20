@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2018_06_18_190915) do
     t.date "lease_start"
     t.integer "term"
     t.string "name"
+    t.string "room_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
