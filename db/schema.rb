@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2018_06_18_190915) do
 
   create_table "apartments", force: :cascade do |t|
     t.integer "floor"
-    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
