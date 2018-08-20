@@ -78,8 +78,12 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# production:
+#   <<: *default
+#   database: room-seek_production
+#   username: room-seek
+#   password: <%= ENV['ROOM-SEEK_DATABASE_PASSWORD'] %>
+
 production:
-  <<: *default
-  database: room-seek_production
-  username: room-seek
-  password: <%= ENV['ROOM-SEEK_DATABASE_PASSWORD'] %>
+  adapter: postgres
+  url: <%= ENV['DATABASE_URL'] %>
